@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
+    // Funções de navegação
     document.getElementById("homeBtn").onclick = function() {
         window.location.href = "#home";
     };
