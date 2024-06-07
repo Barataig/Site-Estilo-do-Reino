@@ -22,7 +22,7 @@ header {
 header .logo {
     font-size: 1.5rem;
     font-weight: bold;
-} 
+}
 
 header nav ul {
     list-style: none;
@@ -136,30 +136,101 @@ footer .container {
     padding: 1rem;
 }
 
+
 @media screen and (max-width: 360px) {
-    
+    .header nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .apresentação h1 {
+        font-size: 1.5rem;
+    }
+    .apresentação h3 {
+        font-size: 1rem;
+    }
+    h1 {
+        font-size: 1.25rem;
+    }
 }
+
 
 @media screen and (min-width: 361px) and (max-width: 480px) {
-    
+    .header nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .apresentação h1 {
+        font-size: 1.75rem;
+    }
+    .apresentação h3 {
+        font-size: 1.1rem;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
 }
+
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
-    
+    .apresentação h1 {
+        font-size: 2rem;
+    }
+    .apresentação h3 {
+        font-size: 1.2rem;
+    }
+    h1 {
+        font-size: 1.75rem;
+    }
 }
+
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-   
+    .apresentação h1 {
+        font-size: 2.25rem;
+    }
+    .apresentação h3 {
+        font-size: 1.25rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
 }
+
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
-    
+    .apresentação h1 {
+        font-size: 2.5rem;
+    }
+    .apresentação h3 {
+        font-size: 1.3rem;
+    }
+    h1 {
+        font-size: 2.25rem;
+    }
 }
+
 
 @media screen and (min-width: 1281px) and (max-width: 1440px) {
-   
+    .apresentação h1 {
+        font-size: 2.75rem;
+    }
+    .apresentação h3 {
+        font-size: 1.35rem;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
 }
 
+
 @media screen and (min-width: 1441px) {
-    
+    .apresentação h1 {
+        font-size: 3rem;
+    }
+    .apresentação h3 {
+        font-size: 1.4rem;
+    }
+    h1 {
+        font-size: 2.75rem;
+    }
 }
