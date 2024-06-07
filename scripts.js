@@ -1,16 +1,20 @@
+// Função para mostrar um pop-up ao clicar em um botão
 function mostrarPopup() {
     alert("Você clicou no botão!");
 }
 
+// Função para mostrar um pop-up ao passar o mouse sobre um elemento
 function mostrarPopupHover() {
     alert("Você passou o mouse sobre o elemento!");
 }
 
+// Adicionar evento de clique a um botão
 document.getElementById("meuBotao").addEventListener("click", mostrarPopup);
 
+// Adicionar evento de passar o mouse sobre um elemento
 document.getElementById("meuElemento").addEventListener("mouseover", mostrarPopupHover);
 
-
+// Funções de navegação
 document.getElementById("homeBtn").onclick = function() {
     window.location.href = "#home";
 };
@@ -35,7 +39,7 @@ document.getElementById("contactBtn").onclick = function() {
     });
 };
 
-
+// Adiciona evento de clique aos botões "Comprar"
 document.querySelectorAll(".product button").forEach(button => {
     button.onclick = function() {
         Swal.fire({
@@ -73,4 +77,3 @@ document.querySelectorAll(".product button").forEach(button => {
         });
     };
 });
-
